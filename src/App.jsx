@@ -1,11 +1,15 @@
 import './App.css'
+import NavBar from './component/NavBar'
 
 function App() {
   
   return (
     <>
-      <div>
-        <h1>Captar</h1>
+      <div className='app'>
+        <header>
+          <NavBar/>
+        </header>
+
       </div>
     </>
   )
