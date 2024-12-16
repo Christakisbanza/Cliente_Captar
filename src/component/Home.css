@@ -16,3 +16,28 @@
 .img-baixar img {
     width: 200px;
 }
+@media(max-width: 750px){
+    .home{
+        align-items: center;
+        padding-left: 0px;
+    }
+}
+@media(max-width: 600px){
+    .img-baixar img{
+        width: 150PX;
+    }
+    .imgCaptarHome img{
+        width: 400px;
+    }
+}
+@media(max-width: 420px){
+    .img-baixar {
+        gap: 10px;
+    }
+    .img-baixar img{
+        width: 140px;
+    }
+    .imgCaptarHome img{
+        width: 300px;
+    }
+}
