@@ -1,5 +1,7 @@
 .home{
-    background-color: aquamarine;
+    background-image: url('../img/test.png');
+    background-position: center;
+    background-size: cover;
     height: 87vh;
     display: flex;
     flex-direction: column;
