@@ -1,5 +1,6 @@
 import './App.css'
 import { AppPagamentoCredito } from './component/AppPagamentoCredito'
+import BancoPagamentoCreditos from './component/BancoPagamentoCreditos'
 import DoacaoEscrowCobranca from './component/DoacaoEscrowCobranca'
 import Home from './component/Home'
 import NavBar from './component/NavBar'
@@ -30,6 +31,10 @@ function App() {
 
           <div className='appPagamentoCredito-app'>
             <AppPagamentoCredito/>
+          </div>
+
+          <div className='bancoPagamentoCreditos-app'>
+            <BancoPagamentoCreditos/>
           </div>
         </main>
 
