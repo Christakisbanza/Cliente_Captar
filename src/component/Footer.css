@@ -1,0 +1,47 @@
+#footer{
+    background-color: black;
+    color: white;
+}
+#footer-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    padding: 25px;
+}
+
+#contatos h2{
+    margin-bottom: 15px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #991851;
+    width: 110px;
+}
+#contatos div{
+    margin-bottom: 10px;
+}
+#horario{
+    text-align: center;
+}
+#footer-img img{
+    width: 250px;
+}
+@media(max-width:720px){
+    #footer-img img{
+        display: none;
+    }
+}
+@media(max-width:435px){
+    #footer-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #contatos h2{
+        text-align: center;
+        width: 250px;
+    }
+    #contatos{
+        border-bottom: 1px solid #991851;
+    }
+}

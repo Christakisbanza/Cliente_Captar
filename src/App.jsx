@@ -2,6 +2,7 @@ import './App.css'
 import { AppPagamentoCredito } from './component/AppPagamentoCredito'
 import BancoPagamentoCreditos from './component/BancoPagamentoCreditos'
 import DoacaoEscrowCobranca from './component/DoacaoEscrowCobranca'
+import { Footer } from './component/Footer'
 import { Form } from './component/Form'
 import Home from './component/Home'
 import NavBar from './component/NavBar'
@@ -40,6 +41,10 @@ function App() {
 
           <div className='form-app'>
             <Form/>
+          </div>
+
+          <div className='footer-app'>
+            <Footer/>
           </div>
         </main>
 
