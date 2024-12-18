@@ -2,6 +2,7 @@ import './App.css'
 import { AppPagamentoCredito } from './component/AppPagamentoCredito'
 import BancoPagamentoCreditos from './component/BancoPagamentoCreditos'
 import DoacaoEscrowCobranca from './component/DoacaoEscrowCobranca'
+import { Form } from './component/Form'
 import Home from './component/Home'
 import NavBar from './component/NavBar'
 import ServicoCashbackInclui from './component/ServicoCashbackInclui'
@@ -35,6 +36,10 @@ function App() {
 
           <div className='bancoPagamentoCreditos-app'>
             <BancoPagamentoCreditos/>
+          </div>
+
+          <div className='form-app'>
+            <Form/>
           </div>
         </main>
 
